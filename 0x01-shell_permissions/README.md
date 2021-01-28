@@ -1,0 +1,1 @@
+This directory contains scripts which complete the tasks assigned in Project 0x01. Shell, permissions.
