@@ -1,0 +1,1 @@
+The scripts in this file demonstrate various uses of bash inbuild commands and core utilities, IO redirections, and filters.
