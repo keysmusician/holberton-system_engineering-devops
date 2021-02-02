@@ -1,2 +1,2 @@
 #!/bin/bash
-env PATH=$PATH:/action
+echo :/action >> $PATH
