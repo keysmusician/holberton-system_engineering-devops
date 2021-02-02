@@ -1,0 +1,1 @@
+This folder was created for Project "0x03. Shell, init files, variables and expansions" and contains scripts which demonstrate related concepts.
