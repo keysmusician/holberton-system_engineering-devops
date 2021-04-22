@@ -1,1 +1,52 @@
-The scripts in this file demonstrate various uses of bash inbuild commands and core utilities, IO redirections, and filters.
+<p align="center">
+  <a href=#>
+    <img src="https://intranet.hbtn.io/assets/holberton-logo-full-black-157ccfa3d2134776c1e3f78c0fe682968e8848b64fcacc6187976044f75f35a8.png" alt="Holberton School logo">
+  </a>
+</p>
+
+# 0x02. Shell, I/O Redirections and filters
+
+## Table of Contents
+* [About](#about)
+* [Files](#files)
+* [Author](#author)
+
+## About
+These scripts demonstrate various uses of **Bash build-in commands** and **core utilities**, **IO redirections**, and **filters**.
+
+## Files
+* `0-hello_world`
+* `1-confused_smiley`
+* `2-hellofile`
+* `3-twofiles`
+* `4-lastlines`
+* `5-firstlines`
+* `6-third_line`
+* `7-file`
+* `8-cwd_state`
+* `9-duplicate_last_line`
+* `10-no_more_js`
+* `11-directories`
+* `12-newest_files`
+* `13-unique`
+* `14-findthatword`
+* `15-countthatword`
+* `16-whatsnext`
+* `17-hidethisword`
+* `18-letteronly`
+* `19-AZ`
+* `20-hiago`
+* `21-reverse`
+* `22-users_and_homes`
+
+## Author
+Justin Masayda [@keysmusician](https://github.com/keysmusician)
+<pre align="center">
+            _   _       _   _   _       _   _       _   _   _      
+     ___//|_//|_____//|_//|_//|_____//|_//|_____//|_//|_//|___
+     /  /// ///  /  /// /// ///  /  /// ///  /  /// /// ///  / |
+   /  ||/ ||/  /  ||/ ||/ ||/  /  ||/ ||/  /  ||/ ||/ ||/  / /
+ /___/___/___/___/___/___/___/___/___/___/___/___/___/___/ /
+|___|___|___|___|___|___|___|___|___|___|___|___|___|___|/
+</pre>
+<p><span style="font-family: 'Lucida Console'; line-height: 14px; font-size: 14px; display: inline-block;">&nbsp;</span></p>
