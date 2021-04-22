@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# 0x02. Shell, I/O Redirections and filters
+# 0x02. Shell, I/O redirections and filters
 
 ## Table of Contents
 * [About](#about)
@@ -12,7 +12,7 @@
 * [Author](#author)
 
 ## About
-These scripts demonstrate various uses of **Bash build-in commands** and **core utilities**, **IO redirections**, and **filters**.
+These scripts demonstrate various uses of **Bash build-in commands** and **core utilities**, **I/O redirections**, and **filters**.
 
 ## Files
 * `0-hello_world`
