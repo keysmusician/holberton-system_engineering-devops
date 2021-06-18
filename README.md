@@ -17,10 +17,10 @@ These **System engineering & DevOps** projects exhibit my understanding of how t
 
 ## Projects
 ### First Trimester:
-1. [0x00](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x00-shell_basics) - Shell, basics
-2. [0x01](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x01-shell_permissions) - Shell, permissions
-3. [0x02](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x02-shell_redirections) - Shell, I/O Redirections and filters
-4. [0x03](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x03-shell_variables_expansions) - Shell, init files, variables and expansions
+1. [0x00. Shell, basics](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x00-shell_basics)
+2. [0x01. Shell, permissions](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x01-shell_permissions)
+3. [0x02. Shell, I/O redirections and filters](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x02-shell_redirections)
+4. [0x03. Shell, init files, variables and expansions](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x03-shell_variables_expansions)
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
