@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# 0x1B. C - Sorting algorithms & Big O
+# 0x04. Loops, conditions and parsing
 
 ## Table of Contents
 * [About](#about)
@@ -12,7 +12,7 @@
 * [Author](#author)
 
 ## About
-This project was about `bash` scripting.
+This project involved writing functional `bash` programs as opposed to the simple one-liners from previous dev-ops projects.
 
 ## Files
 
