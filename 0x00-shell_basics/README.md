@@ -12,7 +12,7 @@
 * [Author](#author)
 
 ## About
-The **Shell, basics** projects improved my understanding of navigating a system and manipulating files through a command line interface. I learned quintessential **Bash** and **Linux commands** such as `cd`, `ls`, `pwd` and many more. I also learned about system directories such as `/bin`, and `/dev`, and the difference between a hard link and a symbolic link.
+The **Shell, basics** projects improved my understanding of navigating a system and manipulating files through a command line interface. I learned quintessential **Bash built-ins** and **Linux commands** such as `cd`, `ls`, `pwd` and many more. I also learned about system directories such as `/bin`, and `/dev`, and the difference between a hard link and a symbolic link.
 
 ## Files
 * `0-current_working_directory`
@@ -39,7 +39,7 @@ The **Shell, basics** projects improved my understanding of navigating a system 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
 <pre align="center">
-            _   _       _   _   _       _   _       _   _   _      
+            _   _       _   _   _       _   _       _   _   _
      ___//|_//|_____//|_//|_//|_____//|_//|_____//|_//|_//|___
      /  /// ///  /  /// /// ///  /  /// ///  /  /// /// ///  / |
    /  ||/ ||/  /  ||/ ||/ ||/  /  ||/ ||/  /  ||/ ||/ ||/  / /
