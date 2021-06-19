@@ -34,6 +34,7 @@ The **Shell, basics** projects improved my understanding of navigating a system 
 * `16-clean_emacs`
 * `17-tree`
 * `18-commas`
+* `README.md`
 * `holberton.mgc`
 
 ## Author
