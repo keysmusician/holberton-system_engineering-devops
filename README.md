@@ -16,11 +16,14 @@ Assignments in [Holberton School's](https://www.holbertonschool.com/) Foundation
 These **System engineering & DevOps** projects exhibit my understanding of how to use a **Linux shell,** particularly **bash**. Concepts include **I/O redirection,** **expansion**, **aliases** and simple **bash scripting**.
 
 ## Projects
-### First Trimester:
+### Trimester 1:
 1. [0x00. Shell, basics](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x00-shell_basics)
 2. [0x01. Shell, permissions](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x01-shell_permissions)
 3. [0x02. Shell, I/O redirections and filters](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x02-shell_redirections)
 4. [0x03. Shell, init files, variables and expansions](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x03-shell_variables_expansions)
+
+### Trimester 2:
+5. [0x04. Loops, conditions and parsing](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x04-loops_conditions_and_parsing)
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
