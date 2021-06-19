@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Display "Holberton School" 10 times, and also print "Hi" after the 9th time.
 
-loop=0
+loop=1
 while [ $loop -le 10 ]; do
 	echo "Holberton School"
 
