@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Display the content of the current directory in a list format
+# where only the part of the name after the first dash is displayed.
+
+files=$(ls -1)
+for file in $files; do
+	echo "${file#*-}"
+done
