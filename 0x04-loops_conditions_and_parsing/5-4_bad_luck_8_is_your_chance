@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Display "bad luck" for the 4th loop iteration
+# Display "good luck" for the 8th loop iteration
+# Display "Holberton School" for the other iterations
+
+loop=1
+while [ $loop -le 10 ]; do
+
+	if [ $loop == 4 ]; then
+		echo "bad luck"
+	elif [ $loop == 8 ]; then
+		echo "good luck"
+	else
+		echo "Holberton School"
+	fi
+
+	((loop++))
+done
