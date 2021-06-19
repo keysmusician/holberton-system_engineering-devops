@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Display information about the "holbertonschool" file.
+
+hsfile="holbertonschool"
+if [ -e "$hsfile" ]; then
+	echo "holbertonschool file exists"
+	if [ -s "$hsfile" ]; then
+		echo "holbertonschool file is not empty"
+	else
+		echo "holbertonschool file is empty"
+	fi
+	if  [ -f "$hsfile" ]; then
+		echo "holbertonschool is a regular file"
+	fi
+else
+	echo "holbertonschool file does not exist"
+fi
