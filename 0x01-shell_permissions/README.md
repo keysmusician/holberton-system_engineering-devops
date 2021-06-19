@@ -33,11 +33,12 @@ The **Shell, permissions** tasks are **Bash scripts** which pertain to user acce
 * `15-symbolic_link_permissions`
 * `16-if_only`
 * `100-Star_Wars`
+* `README.md`
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
 <pre align="center">
-            _   _       _   _   _       _   _       _   _   _      
+            _   _       _   _   _       _   _       _   _   _
      ___//|_//|_____//|_//|_//|_____//|_//|_____//|_//|_//|___
      /  /// ///  /  /// /// ///  /  /// ///  /  /// /// ///  / |
    /  ||/ ||/  /  ||/ ||/ ||/  /  ||/ ||/  /  ||/ ||/ ||/  / /
