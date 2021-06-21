@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# 0x05-processes_and_signals
+# 0x05. Processes and signals
 
 ## Table of Contents
 * [About](#about)
@@ -12,7 +12,7 @@
 * [Author](#author)
 
 ## About
-
+This project features scripts dealing with **processess** and **signals.**
 
 ## Files
 
