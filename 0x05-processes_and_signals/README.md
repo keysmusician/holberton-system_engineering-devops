@@ -12,7 +12,7 @@
 * [Author](#author)
 
 ## About
-This project features scripts dealing with **processess** and **signals.**
+This project features scripts dealing with **processes** and **signals.**
 
 ## Files
 
