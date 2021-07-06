@@ -13,7 +13,7 @@ Assignments in [Holberton School's](https://www.holbertonschool.com/) Foundation
 * [Author](#author)
 
 ## About
-These **System engineering & DevOps** projects exhibit my understanding of how to use a **Linux shell,** particularly **bash**. Concepts include **I/O redirection,** **expansion**, **aliases** and simple **bash scripting**.
+These **System engineering & DevOps** projects exhibit my understanding of how to use a **Linux shell,** particularly **bash**. Concepts include **I/O redirection,** **expansion**, **aliases,** **regular expressions,** and **bash scripting**.
 
 ## Projects
 ### Trimester 1:
@@ -25,6 +25,7 @@ These **System engineering & DevOps** projects exhibit my understanding of how t
 ### Trimester 2:
 5. [0x04. Loops, conditions and parsing](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x04-loops_conditions_and_parsing)
 6. [0x05. Processes and signals](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x05-processes_and_signals)
+7. [0x06. Regular expression](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x06-regular_expressions)
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
