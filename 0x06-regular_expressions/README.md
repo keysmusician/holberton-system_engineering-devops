@@ -23,6 +23,8 @@ This project was about learning and experimenting with **regular expressions.**
 * `5-beginning_and_end.rb`
 * `6-phone_number.rb`
 * `7-OMG_WHY_ARE_YOU_SHOUTING.rb`
+* `100-textme.rb`
+* `101-passed_linkedin_regex_challenge.jpg`
 * `README.md`
 
 ## Author
