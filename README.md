@@ -26,6 +26,7 @@ These **System engineering & DevOps** projects exhibit my understanding of how t
 5. [0x04. Loops, conditions and parsing](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x04-loops_conditions_and_parsing)
 6. [0x05. Processes and signals](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x05-processes_and_signals)
 7. [0x06. Regular expression](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x06-regular_expressions)
+8. [0x07. Networking basics #0](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x07-networking_basics)
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
