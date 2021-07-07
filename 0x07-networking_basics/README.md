@@ -12,7 +12,7 @@
 * [Author](#author)
 
 ## About
-In this project, I learned the **OSI model,** and essential theory of computer networking.
+In this project, I learned the **OSI model,** and essentials of computer networking.
 
 ## Files
 
