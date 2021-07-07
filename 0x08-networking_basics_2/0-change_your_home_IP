@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# configures a Ubuntu server such that localhost resolves to 127.0.0.2
+# and facebook.com resolves to 8.8.8.8.
