@@ -13,7 +13,7 @@ Assignments in [Holberton School's](https://www.holbertonschool.com/) Foundation
 * [Author](#author)
 
 ## About
-These **System engineering & DevOps** projects exhibit my understanding of how to use a **Linux shell,** particularly **bash**. Concepts include **I/O redirection,** **expansion**, **aliases,** **regular expressions,** and **bash scripting**.
+These **System engineering & DevOps** projects exhibit my understanding of how to use a **Linux shell,** particularly **Bash**. Concepts include **I/O redirection,** **expansion**, **aliases,** **regular expressions,** and **bash scripting**. In trimester 2, I learned networking basics such as the **OSI model**, **DNS**, and **IP**. In the third trimester, I learned the basics of **Configuration management**.
 
 ## Projects
 ### Trimester 1:
