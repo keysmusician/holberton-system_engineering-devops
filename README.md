@@ -13,7 +13,7 @@ Assignments in [Holberton School's](https://www.holbertonschool.com/) Foundation
 * [Author](#author)
 
 ## About
-These **System engineering & DevOps** projects exhibit my understanding of how to use a **Linux shell,** particularly **bash**. Concepts include **I/O redirection,** **expansion**, **aliases,** **regular expressions,** and **bash scripting**.
+These **System engineering & DevOps** projects exhibit my understanding of how to use a **Linux shell,** particularly **Bash**. Concepts include **I/O redirection,** **expansion**, **aliases,** **regular expressions,** and **bash scripting**. In trimester 2, I learned networking basics such as the **OSI model**, **DNS**, and **IP**. In the third trimester, I learned the basics of **Configuration management**.
 
 ## Projects
 ### Trimester 1:
@@ -28,6 +28,10 @@ These **System engineering & DevOps** projects exhibit my understanding of how t
 7. [0x06. Regular expression](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x06-regular_expressions)
 8. [0x07. Networking basics #0](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x07-networking_basics)
 9. [0x08. Networking basics #1](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x08-networking_basics_2)
+10. [0x09. Web infrastructure design](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x09-web_infrastructure_design)
+
+### Trimester 3:
+11. [0x0A. Configuration management](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x0A-configuration_management)
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
