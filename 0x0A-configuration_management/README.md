@@ -12,13 +12,12 @@
 * [Author](#author)
 
 ## About
-In this project, I learned about web infrastructure design.
+I learned what **configuration management** is, and wrote simple **Puppet** scripts in this project.
 
 ## Files
-* `0-simple_web_stack.jpg`
-* `1-distributed_web_infrastructure.jpg`
-* `2-secured_and_monitored_web_infrastructure.jpg`
-* `3-scale_up.jpg`
+* `0-create_a_file.pp`
+* `1-install_a_package.pp`
+* `2-execute_a_command.pp`
 * `README.md`
 
 ## Author
