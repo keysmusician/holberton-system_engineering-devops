@@ -1,3 +1,5 @@
+# Create a file
+
 file { '/tmp/holberton':
   content => 'I love Puppet',
   group   => www-data,
