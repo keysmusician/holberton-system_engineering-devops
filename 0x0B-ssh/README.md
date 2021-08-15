@@ -15,7 +15,11 @@
 In this project, I learned how to use **SSH** to establish a remote connection.
 
 ## Files
-
+* `0-use_a_private_key`
+* `1-create_ssh_key_pair`
+* `2-ssh_config`
+* `100-puppet_ssh_config.pp`
+* `README.md`
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
