@@ -32,6 +32,7 @@ These **System engineering & DevOps** projects exhibit my understanding of how t
 
 ### Trimester 3:
 11. [0x0A. Configuration management](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x0A-configuration_management)
+12. [0x0B. SSH](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x0B-ssh)
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
