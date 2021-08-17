@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# Configures a web server
+
+# Install Nginx
+apt-get install -y nginx
+
+# Launch nginx
+nginx
+
+# Create a web page
+mkdir ~/www
+echo '<html>
+	<head>
+		<title>Test website</title>
+	</head>
+	<body>
+		<p>Holberton School</p>
+	</body>
+</html>' > ~/www/index.html
+
+# Create Nginx config file
