@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Fix a server which is not responding to HTTP requests
+# by installing Apache
+
+apt update
+apt install -y apache2
