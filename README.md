@@ -34,6 +34,7 @@ These **System engineering & DevOps** projects exhibit my understanding of how t
 11. [0x0A. Configuration management](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x0A-configuration_management)
 12. [0x0B. SSH](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x0B-ssh)
 13. [0x0C. Web server](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x0C-web_server)
+14. [0x0D. Web stack debugging #0](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x0D-web_stack_debugging_0)
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
