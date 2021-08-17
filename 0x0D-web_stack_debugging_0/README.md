@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# 0x0C. Web server
+# 0x0D. Web stack debugging #0
 
 ## Table of Contents
 * [About](#about)
@@ -12,10 +12,11 @@
 * [Author](#author)
 
 ## About
-In this project, I learned how to configure a **web server**.
+The purpose of this project was to gain experience debugging a **web server**.
 
 ## Files
-
+* `0-give_me_a_page`
+* `README.md`
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
