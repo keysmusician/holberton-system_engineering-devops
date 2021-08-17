@@ -2,20 +2,37 @@
 # Configures a web server
 
 # Install Nginx
-apt-get install -y nginx
-
-# Launch nginx
-nginx
+apt-get install -y nginx 1>/dev/null
 
 # Create a web page
-mkdir ~/www
-echo '<html>
+mkdir /www
+echo "<html>
 	<head>
 		<title>Test website</title>
 	</head>
 	<body>
 		<p>Holberton School</p>
 	</body>
-</html>' > ~/www/index.html
+</html>" > /www/index.html
 
 # Create Nginx config file
+echo "user root;
+worker_processes auto;
+pid /run/nginx.pid;
+
+events {
+        worker_connections 768;
+}
+
+http {
+    server {
+        listen 0.0.0.0:80;
+        location / {
+            root /www;
+            index index.html;
+        }
+    }
+}" > /holberton.conf
+
+# Launch Nginx with the custom configuration above
+nginx -c /holberton.conf
