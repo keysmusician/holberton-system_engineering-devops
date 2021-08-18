@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # Configure a Nginx server with a HTTP 404 error
-apt update
-apt -y install nginx
+sudo apt-get -y update
+sudo apt-get -y install nginx
 mkdir -p /var/www/html
+sudo service nginx start
 sudo sh -c 'echo "Holberton School for the win!" > /var/www/html/index.html'
 touch /var/www/html/404.html
 echo "Ceci n'est pas une page" > /var/www/html/404.html
-sudo service nginx start
 printf %s "server {
     listen 80;
     listen [::]:80 default_server;
