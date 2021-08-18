@@ -1,19 +1,18 @@
 #!/usr/bin/env bash
-# Configure a Nginx server with a HTTP 404 error
-sudo apt-get -y update
-sudo apt-get -y install nginx
-mkdir -p /var/www/html
-sudo service nginx start
-sudo sh -c 'echo "Holberton School for the win!" > /var/www/html/index.html'
-touch /var/www/html/404.html
-echo "Ceci n'est pas une page" > /var/www/html/404.html
+# Configure a Nginx server with an HTTP 404 error
+
+# Install Nginx
+apt update
+apt -y install nginx
+
+# Configure Nginx server
 printf %s "server {
     listen 80;
     listen [::]:80 default_server;
     root   /var/www/html;
-    index  index.html index.htm;
+    index  index.html;
     location /redirect_me {
-        return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;
+        return 301 https://www.youtube.com/c/JustinMasayda;
     }
     error_page 404 /404.html;
     location /404 {
@@ -22,4 +21,10 @@ printf %s "server {
     }
 }" > /etc/nginx/sites-available/default
 
-service nginx restart
+# Create Website
+mkdir -p /var/www/html
+echo "Holberton School for the win!" > /var/www/html/index.html
+echo "Ceci n'est pas une page" > /var/www/html/404.html
+
+# Launch Nginx server
+sudo service nginx start
