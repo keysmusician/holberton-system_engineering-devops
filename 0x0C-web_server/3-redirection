@@ -1,17 +1,37 @@
 #!/usr/bin/env bash
 # Configures a redirection on an Nginx web server
+
+# Install Nginx
 apt update
 apt -y install nginx
-mkdir -p /var/www/html
-echo "Holberton School" > /var/www/html/index.html
 
+# Configure Nginx
 printf %s "server {
     listen 80;
     listen [::]:80 default_server;
     root   /var/www/html;
-    index  index.html index.htm;
+    index  index.html;
     location /redirect_me {
         return 301 https://www.youtube.com/c/JustinMasayda;
     }
 }" > /etc/nginx/sites-available/default
+
+# Create website
+mkdir -p /var/www/html
+index_html=$(cat << EOF
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Holberton Website</title>
+	</head>
+
+	<body>
+		<p>Hello Holberton</p>
+	</body>
+</html>
+EOF
+)
+echo "$index_html" > /var/www/html/index.html
+
+# Launch Nginx service
 service nginx start
