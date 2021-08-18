@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
 # Fix a server which is not responding to HTTP requests by installing Apache2
-
-apt update
-apt install -y apache2
-apachectl restart
+echo "ServerName 127.0.0.1" >> /etc/apache2/apache2.conf
+service apache2 restart
