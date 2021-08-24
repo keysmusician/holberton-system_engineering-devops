@@ -12,7 +12,7 @@
 * [Author](#author)
 
 ## About
-In this project, I learned how to configure a **web server**.
+In this project, I learned how to configure a **web server** with **Nginx**.
 
 ## Files
 * `0-transfer_file`
