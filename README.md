@@ -35,6 +35,8 @@ These **System engineering & DevOps** projects exhibit my understanding of how t
 12. [0x0B. SSH](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x0B-ssh)
 13. [0x0C. Web server](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x0C-web_server)
 14. [0x0D. Web stack debugging #0](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x0D-web_stack_debugging_0)
+15. [0x0E. Web stack debugging #1](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x0E-web_stack_debugging_1)
+16. [0x0F. Load balancer](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x0F-load_balancer)
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
