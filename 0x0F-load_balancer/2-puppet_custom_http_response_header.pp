@@ -16,25 +16,17 @@ package { 'nginx':
 }
 ->
 
-#sets index content
-file { 'index.html':
-  ensure  => present,
-  path    => '/var/www/html/index.html',
-  mode    => '0644',
-  owner   => 'root',
-  group   => 'root',
-  content => 'Holberton School'
+# Index
+file { '/var/www/html/index.html':
+	ensure  => file,
+	content => "Holberton School for the win!",
 }
 ->
 
-#sets 404 content
-file { '404.html':
-  ensure  => present,
-  path    => '/var/www/html/404.html',
-  mode    => '0644',
-  owner   => 'root',
-  group   => 'root',
-  content => "Ceci n'est pas une page"
+# 404
+file { '/var/www/html/404.html':
+	ensure  => file,
+	content => "Ceci n'est pas une page",
 }
 ->
 
