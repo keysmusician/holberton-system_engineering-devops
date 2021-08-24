@@ -14,6 +14,12 @@ package { 'nginx':
 }
 ->
 
+# Set default hostname to static hostname
+exec { 'hostname -b $(hostnamectl --static)':
+	path => '/bin',
+}
+->
+
 # Create webpages
 # Index
 file { '/var/www/html/index.html':
