@@ -6,10 +6,10 @@ apt update
 apt -y install nginx
 
 # Set hostname
-STATIC_HOSTNAME=$(hostnamectl --static)
+hostname -b $(hostnamectl --static)
 
 # Configure Nginx server
-echo "server {
+echo 'server {
     listen 80;
     listen [::]:80 default_server;
     root   /var/www/html;
@@ -18,8 +18,8 @@ echo "server {
         return 301 https://www.youtube.com/c/JustinMasayda;
     }
     error_page 404 /404.html;
-    add_header X-Served-By $STATIC_HOSTNAME;
-}" > /etc/nginx/sites-available/default
+    add_header X-Served-By $HOSTNAME;
+}' > /etc/nginx/sites-available/default
 
 # Create website files
 mkdir -p /var/www/html
