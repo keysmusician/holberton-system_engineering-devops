@@ -60,8 +60,7 @@ exec { 'Set X-Served-By':
 }
 ->
 
-exec { 'Start nginx':
-  command  => 'service nginx restart',
-  user     => 'root',
-  provider => 'shell'
+# Launch Nginx server
+service { 'nginx':
+	ensure => running,
 }
