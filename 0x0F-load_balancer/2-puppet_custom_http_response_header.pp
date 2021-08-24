@@ -2,6 +2,12 @@
 # Configure a Nginx server with a custom HTTP header and two web pages.
 
 # Install Nginx
+exec { 'update':
+  command  => 'apt-get update',
+  user     => 'root',
+  provider => 'shell'
+}
+->
 package { 'nginx':
   ensure => installed,
 }
