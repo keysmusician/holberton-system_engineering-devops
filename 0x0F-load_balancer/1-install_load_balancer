@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Install and configure HAProxy
 
-# Instal HAProxy
+# Install HAProxy
 apt-get install -y --no-install-recommends software-properties-common
 add-apt-repository -y ppa:vbernat/haproxy-1.6
 apt-get install -y haproxy=1.6.\*
@@ -14,8 +14,8 @@ frontend hbnb
 
 backend web_servers
   balance roundrobin
-  server 2705-web-01 34.138.201.214:80
-  server 2705-web-02 34.73.161.142
+  server 2705-web-01 34.138.201.214:80 check
+  server 2705-web-02 34.73.161.142:80 check
 " >> /etc/haproxy/haproxy.cfg
 
 systemctl restart haproxy
