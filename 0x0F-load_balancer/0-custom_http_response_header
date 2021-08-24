@@ -24,4 +24,4 @@ echo "Holberton School for the win!" > /var/www/html/index.html
 echo "Ceci n'est pas une page" > /var/www/html/404.html
 
 # Launch Nginx server
-service nginx start
+nginx
