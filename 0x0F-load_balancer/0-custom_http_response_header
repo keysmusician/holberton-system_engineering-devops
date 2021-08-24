@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+# Configure a Nginx server with a custom HTTP header and two web pages.
+
+# Install Nginx
+apt update
+apt -y install nginx
+
+# Configure Nginx server
+echo 'server {
+    listen 80;
+    listen [::]:80 default_server;
+    root   /var/www/html;
+    index  index.html;
+    location /redirect_me {
+        return 301 https://www.youtube.com/c/JustinMasayda;
+    }
+    error_page 404 /404.html;
+	add_header X-Served-By $hostname;
+}' > /etc/nginx/sites-available/default
+
+# Create website files
+mkdir -p /var/www/html
+echo "Holberton School for the win!" > /var/www/html/index.html
+echo "Ceci n'est pas une page" > /var/www/html/404.html
+
+# Launch Nginx server
+service nginx start
