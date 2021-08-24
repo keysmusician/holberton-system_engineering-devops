@@ -10,6 +10,7 @@ apt-get install -y haproxy=1.6.\*
 echo "
 frontend hbnb
   bind :80
+  option http-keep-alive
   default_backend web_servers
 
 backend web_servers
