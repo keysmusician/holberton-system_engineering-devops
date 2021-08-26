@@ -5,42 +5,43 @@
 exec { 'update':
   command  => 'apt-get update',
   user     => 'root',
-  provider => 'shell'
+  provider => 'shell',
 }
 ->
 
 package { 'nginx':
-  ensure => installed,
+  ensure   => installed,
 }
 ->
 
-# Set hostname
+# Set default hostname to static hostname
 exec { 'hostname -b $(hostnamectl --static)':
 	path => '/bin',
 }
 ->
 
-# Configure Nginx server
-$CONFIG = '
-server {
-	listen 80;
-	listen [::]:80 default_server;
-	root   /var/www/html;
-	index  index.html;
-	location /redirect_me {
-		return 301 https://www.youtube.com/c/JustinMasayda;
-	}
-	error_page 404 /404.html;
-	add_header X-Served-By $HOSTNAME;
-}'
-
-file { '/etc/nginx/sites-available/default':
+# Create webpages
+# Index
+file { '/var/www/html/index.html':
 	ensure  => file,
-	content => $CONFIG,
+	content => "Holberton School for the win!",
 }
 ->
 
-# Create webpages
+# 404 page
+file { '/var/www/html/404.html':
+	ensure  => file,
+	content => "Ceci n'est pas une page",
+}
+->
+
+# Configure Nginx server
+exec { 'Set default /redirect_me':
+  command  => 'sed -i "48i \\\n\tlocation /redirect_me {\n\t\treturn 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;\n\t}" /etc/nginx/sites-available/default',
+  user     => 'root',
+  provider => 'shell'
+}
+->
 
 # Index
 file { '/var/www/html/index.html':
