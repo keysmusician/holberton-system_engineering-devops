@@ -1,6 +1,7 @@
 # Puppet manifest
 # Configure a Nginx server with a custom HTTP header and two web pages.
 
+# Install Nginx
 exec { 'update':
   command  => 'apt-get update',
   user     => 'root',
@@ -8,60 +9,54 @@ exec { 'update':
 }
 ->
 
-#installs nginx
 package { 'nginx':
-  ensure   => present,
-  name     => 'nginx',
-  provider => 'apt'
+  ensure => installed,
 }
 ->
 
-#sets index content
-file { 'index.html':
-  ensure  => present,
-  path    => '/var/www/html/index.html',
-  mode    => '0644',
-  owner   => 'root',
-  group   => 'root',
-  content => 'Holberton School'
+# Set hostname
+exec { 'hostname -b $(hostnamectl --static)':
+	path => '/bin',
 }
 ->
 
-#sets 404 content
-file { '404.html':
-  ensure  => present,
-  path    => '/var/www/html/404.html',
-  mode    => '0644',
-  owner   => 'root',
-  group   => 'root',
-  content => "Ceci n'est pas une page"
+# Configure Nginx server
+$CONFIG = '
+server {
+	listen 80;
+	listen [::]:80 default_server;
+	root   /var/www/html;
+	index  index.html;
+	location /redirect_me {
+		return 301 https://www.youtube.com/c/JustinMasayda;
+	}
+	error_page 404 /404.html;
+	add_header X-Served-By $HOSTNAME;
+}'
+
+file { '/etc/nginx/sites-available/default':
+	ensure  => file,
+	content => $CONFIG,
 }
 ->
 
-#sets config
-exec { 'Set default /redirect_me':
-  command  => 'sed -i "48i \\\n\tlocation /redirect_me {\n\t\treturn 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;\n\t}" /etc/nginx/sites-available/default',
-  user     => 'root',
-  provider => 'shell'
+# Create webpages
+
+# Index
+file { '/var/www/html/index.html':
+	ensure  => file,
+	content => "Holberton School for the win!",
 }
 ->
 
-exec { 'Set default /404':
-  command  => 'sed -i "42i \\\n\terror_page 404 /404.html;" /etc/nginx/sites-available/default',
-  user     => 'root',
-  provider => 'shell'
+# 404 page
+file { '/var/www/html/404.html':
+	ensure  => file,
+	content => "Ceci n'est pas une page",
 }
 ->
 
-exec { 'Set X-Served-By':
-  command  => 'sed -i "48i \\\t\tadd_header X-Served-By $HOSTNAME;" /etc/nginx/sites-available/default',
-  user     => 'root',
-  provider => 'shell'
-}
-->
-
-exec { 'Start nginx':
-  command  => 'service nginx restart',
-  user     => 'root',
-  provider => 'shell'
+# Launch Nginx server
+service { 'nginx':
+	ensure => running,
 }
