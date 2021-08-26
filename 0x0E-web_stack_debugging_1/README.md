@@ -12,7 +12,7 @@
 * [Author](#author)
 
 ## About
-The purpose of this project was to gain experience debugging a **web server**.
+The purpose of this project was to gain experience debugging a **web server**. My task was to find out what’s keeping a Ubuntu container’s Nginx installation from listening on port 80.
 
 ## Files
 * `0-nginx_likes_port_80`
