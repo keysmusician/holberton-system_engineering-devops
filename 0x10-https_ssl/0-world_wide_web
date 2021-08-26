@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Display information about subdomains
+DOMAIN=$1
+SUBDOMAINS="www lb-01 web-01 web-02"
+if [ "$2" ]; then
+	SUBDOMAINS=$2
+fi
+for SUBDOMAIN in $SUBDOMAINS; do
+	URL="$SUBDOMAIN"."$DOMAIN"
+	RECORD_TYPE=$(dig +noall +answer "$URL" | awk '{print $4}')
+	IP=$(dig +short "$URL")
+	echo "The subdomain $SUBDOMAIN is a $RECORD_TYPE record and points to $IP"
+done
