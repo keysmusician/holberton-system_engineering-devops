@@ -16,6 +16,7 @@ The purpose of this project was to gain experience debugging a **web server**. M
 
 ## Files
 * `0-nginx_likes_port_80`
+* `1-debugging_made_short`
 * `README.md`
 
 ## Author
