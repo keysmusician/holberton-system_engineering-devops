@@ -13,7 +13,7 @@ Assignments in [Holberton School's](https://www.holbertonschool.com/) Foundation
 * [Author](#author)
 
 ## About
-These **System engineering & DevOps** projects exhibit my understanding of how to use a **Linux shell,** particularly **Bash**. Concepts include **I/O redirection,** **expansion**, **aliases,** **regular expressions,** and **bash scripting**. In trimester 2, I learned networking basics such as the **OSI model**, **DNS**, and **IP**. In the third trimester, I learned the basics of **configuration management** using **Puppet,** and how to configure a **web server**.
+These **System engineering & DevOps** projects exhibit my understanding of how to use a **Linux shell,** particularly **Bash**. Concepts include **I/O redirection,** **expansion**, **aliases,** **regular expressions,** and **bash scripting**. In trimester 2, I learned networking basics such as the **OSI model**, **DNS**, and **IP**. In the third trimester, I learned the basics of **configuration management** using **Puppet,** and how to configure a **web server** using **Nginx** and **HAProxy**.
 
 ## Projects
 ### Trimester 1:
@@ -37,6 +37,7 @@ These **System engineering & DevOps** projects exhibit my understanding of how t
 14. [0x0D. Web stack debugging #0](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x0D-web_stack_debugging_0)
 15. [0x0E. Web stack debugging #1](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x0E-web_stack_debugging_1)
 16. [0x0F. Load balancer](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x0F-load_balancer)
+17. [0x10. HTTPS SSL](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x10-https_ssl)
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
