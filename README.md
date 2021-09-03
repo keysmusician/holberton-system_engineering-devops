@@ -38,6 +38,8 @@ These **System engineering & DevOps** projects exhibit my understanding of how t
 15. [0x0E. Web stack debugging #1](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x0E-web_stack_debugging_1)
 16. [0x0F. Load balancer](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x0F-load_balancer)
 17. [0x10. HTTPS SSL](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x10-https_ssl)
+18. [0x11. What happens when you type holbertonschool.com in your browser and press Enter](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x11-what_happens_when_your_type_holbertonschool_com_in_your_browser_and_press_enter)
+19. [0x12. Web stack debugging #2](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x12-web_stack_debugging_2)
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
