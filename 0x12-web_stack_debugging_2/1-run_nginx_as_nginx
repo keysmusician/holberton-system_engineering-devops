@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Run Nginx as the "nginx" user.
+chmod 644 /etc/nginx/nginx.conf
+sed -i '0,/./s/^.//' /etc/nginx/nginx.conf
