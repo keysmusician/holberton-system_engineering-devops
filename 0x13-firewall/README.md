@@ -15,6 +15,9 @@
 In this project, I install and setup the `ufw` firewall on my servers.
 
 ## Files
+* `0-block_all_incoming_traffic_but`
+* `100-port_forwarding`
+* `README.md`
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
