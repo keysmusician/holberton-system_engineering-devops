@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
 # Run Nginx as the "nginx" user.
+# Edit the config file
 chmod 644 /etc/nginx/nginx.conf
-sed -i '0,/./s/^.//' /etc/nginx/nginx.conf
+sed -i '1c\user nginx;' /etc/nginx/nginx.conf
+sed -i '21c\\tlisten 8080 default_server;' /etc/nginx/sites-available/default
+sed -i '22c\\tlisten [::]:8080 default_server;' /etc/nginx/sites-available/default
+# Start Nginx and stop Apache
+pkill apache2
+service nginx start
