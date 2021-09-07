@@ -41,6 +41,7 @@ These **System engineering & DevOps** projects exhibit my understanding of how t
 18. [0x11. What happens when you type holbertonschool.com in your browser and press Enter](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x11-what_happens_when_your_type_holbertonschool_com_in_your_browser_and_press_enter)
 19. [0x12. Web stack debugging #2](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x12-web_stack_debugging_2)
 20. [0x13. Firewall](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x13-firewall)
+21. [0x14. MySQL](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x14-mysql)
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
