@@ -7,4 +7,4 @@ sed -i '21c\\tlisten 8080 default_server;' /etc/nginx/sites-available/default
 sed -i '22c\\tlisten [::]:8080 default_server;' /etc/nginx/sites-available/default
 # Start Nginx and stop Apache
 pkill apache2
-service nginx start
+sudo -H -u nginx bash -c "service nginx start"
