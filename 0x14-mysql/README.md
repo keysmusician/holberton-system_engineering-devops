@@ -12,10 +12,13 @@
 * [Author](#author)
 
 ## About
-
+In this project, I set up a primary-replica database configuration on my AirBnB clone web servers.
 
 ## Files
-
+* `4-mysql_configuration_primary`
+* `4-mysql_configuration_replica`
+* `5-mysql_backup`
+* `README.md`
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
