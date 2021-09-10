@@ -12,7 +12,20 @@
 * [Author](#author)
 
 ## About
-This repository contains a blog post about how web pages are server to a browser.
+In this assignment, I was to write a blog post explaining what happens when you type https://www.holbertonschool.com in your browser and press Enter.
+
+I was required to cover:
+* DNS
+* TCP/IP
+* Firewall
+* HTTPS/SSL
+* Load-balancer
+* Web server
+* Application server
+* Database
+
+Read my article on Medium:
+https://keysmusician.medium.com/how-the-internet-works-663a188a241
 
 ## Files
 * `0-blog_post`
