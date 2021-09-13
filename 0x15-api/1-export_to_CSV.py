@@ -2,7 +2,7 @@
 """Creates a CSV from fake user data using the JSON Placeholder API."""
 import csv
 import requests
-from sys import argv, exc_info
+from sys import argv
 
 
 if __name__ == "__main__":
