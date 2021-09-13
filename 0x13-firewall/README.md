@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# 0x13. Firewall
+# 0x04. AirBnB clone - Web framework
 
 ## Table of Contents
 * [About](#about)
@@ -12,12 +12,10 @@
 * [Author](#author)
 
 ## About
-In this project, I installed and set up the `ufw` firewall on my servers.
+In this project, I learned how to use the **Flask** web framework.
 
 ## Files
-* `0-block_all_incoming_traffic_but`
-* `100-port_forwarding`
-* `README.md`
+
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
