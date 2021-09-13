@@ -2,7 +2,7 @@
 """Creates a CSV from fake user data using the JSON Placeholder API."""
 import csv
 import requests
-from sys import argv
+from sys import argv, exc_info
 
 
 if __name__ == "__main__":
@@ -35,6 +35,7 @@ if __name__ == "__main__":
         } for task in tasks
     ]
 
-    with open('USER_ID.csv', "w") as file:
+    filename = "{}.csv".format(employee_id)
+    with open(filename, "w") as file:
         csv.DictWriter(file, csv_headers, quoting=csv.QUOTE_ALL)\
            .writerows(data_dicts)
