@@ -19,13 +19,6 @@ if __name__ == "__main__":
 
     username = employee.get("username")
 
-    csv_headers = [
-        "USER_ID",
-        "USERNAME",
-        "TASK_COMPLETED_STATUS",
-        "TASK_TITLE"
-    ]
-
     data = {employee_id:
             [{
                 "USER_ID": employee_id,
