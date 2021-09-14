@@ -6,28 +6,27 @@ from sys import argv
 
 
 if __name__ == "__main__":
-    employee_id = argv[1]
+    user_id = argv[1]
     api = 'https://jsonplaceholder.typicode.com/'
 
     endpoints = [
-        'users/{}'.format(employee_id),
-        'todos?userId={}'.format(employee_id)
+        'users/{}'.format(user_id),
+        'todos?userId={}'.format(user_id)
     ]
 
-    employee, tasks = \
+    user, tasks = \
         [requests.get(api + endpoint).json() for endpoint in endpoints]
 
-    username = employee.get("username")
+    username = user.get("username")
 
-    data = {employee_id:
+    data = {user_id:
             [{
-                "USER_ID": employee_id,
                 "username": username,
                 "completed": task.get("completed"),
                 "task": task.get("title")
              } for task in tasks]
             }
 
-    filename = "{}.json".format(employee_id)
+    filename = "{}.json".format(user_id)
     with open(filename, "w") as file:
         json.dump(data, file)
