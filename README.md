@@ -43,6 +43,7 @@ These **System engineering & DevOps** projects exhibit my understanding of how t
 20. [0x13. Firewall](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x13-firewall)
 21. [0x14. MySQL](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x14-mysql)
 22. [0x15. API](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x15-api)
+23. [0x16. API advanced](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x16-api_advanced)
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
