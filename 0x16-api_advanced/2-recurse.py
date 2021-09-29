@@ -18,6 +18,8 @@ def recurse(subreddit, hot_list=[], count=0, after=''):
     url = base + endpoint + query_string
     headers = {'User-Agent': 'Python/1.0(Holberton School 0x16 task 2)'}
     response = requests.get(url, headers=headers)
+    if (not response.ok):
+        return hot_list
     data = response.json()['data']
     for post in data['children']:
         hot_list.append(post['data']['title'])
