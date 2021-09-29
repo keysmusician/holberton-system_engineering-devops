@@ -12,7 +12,7 @@
 * [Author](#author)
 
 ## About
-In this project, I learned how to perform webstack monitoring.
+In this project, I learned how to perform webstack monitoring using **Datadog**.
 
 ## Files
 * `2-setup_datadog`
