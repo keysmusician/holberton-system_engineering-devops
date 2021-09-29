@@ -16,7 +16,7 @@ def recurse(subreddit, hot_list=[], count=0, after=''):
     query_string = '?show="all"&limit=100&after={}&count={}'.format(
         after, count)
     url = base + endpoint + query_string
-    headers = {'User-Agent': 'Python/1.0(Holberton School 0x16)'}
+    headers = {'User-Agent': 'Python/1.0(Holberton School 0x16 task 2)'}
     response = requests.get(url, headers=headers)
     data = response.json()['data']
     for post in data['children']:
