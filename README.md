@@ -44,6 +44,7 @@ These **System engineering & DevOps** projects exhibit my understanding of how t
 21. [0x14. MySQL](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x14-mysql)
 22. [0x15. API](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x15-api)
 23. [0x16. API advanced](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x16-api_advanced)
+24. [0x17. Web stack debugging #3](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x17-web_stack_debugging_3)
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
