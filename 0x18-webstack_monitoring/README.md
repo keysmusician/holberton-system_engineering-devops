@@ -15,6 +15,7 @@
 In this project, I learned how to perform webstack monitoring.
 
 ## Files
+* `2-setup_datadog`
 * `README.md`
 
 ## Author
