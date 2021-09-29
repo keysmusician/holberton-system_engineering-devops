@@ -14,9 +14,6 @@ def top_ten(subreddit):
     url = 'https://www.reddit.com/r/{}/hot.json?show="all"&limit=10'.format(
         subreddit)
     response = requests.get(url)
-    if (not response.ok):
-        print('None')
-        return
     try:
         top_ten = response.json()['data']['children']
         for post in top_ten:
