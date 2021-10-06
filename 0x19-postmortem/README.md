@@ -22,7 +22,7 @@ This project required me to write my first **postmortem**. I wrote about the tim
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
 <pre align="center">
-      _   _       _   _   _       _   _       _   _   _
+     _   _       _   _   _       _   _       _   _   _
      ___//|_//|_____//|_//|_//|_____//|_//|_____//|_//|_//|___
      /  /// ///  /  /// /// ///  /  /// ///  /  /// /// ///  / |
    /  ||/ ||/  /  ||/ ||/ ||/  /  ||/ ||/  /  ||/ ||/ ||/  / /

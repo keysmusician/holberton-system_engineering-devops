@@ -15,7 +15,10 @@
 In this project, I got more practie with **APIs** by using the [Reddit API](https://www.reddit.com/dev/api/).
 
 ## Files
-
+* `0-subs.py`
+* `1-top_ten.py`
+* `2-recurse.py`
+* `100-count.py`
 * `README.md`
 
 ## Author
