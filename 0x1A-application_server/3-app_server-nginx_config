@@ -10,8 +10,8 @@ server {
         proxy_pass http://localhost:5000;
     }
 
-    location /airbnb-dynamic/number_odd_or_even/* {
+    location /airbnb-dynamic/number_odd_or_even/ {
         include proxy_params;
-        proxy_pass http://localhost:5001
+        proxy_pass http://localhost:5001/number_odd_or_even/
     }
 }
