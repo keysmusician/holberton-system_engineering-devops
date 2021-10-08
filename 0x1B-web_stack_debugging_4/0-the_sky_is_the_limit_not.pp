@@ -1,4 +1,5 @@
-exec {'/bin/sed -i "5s/[0-9]\+/$( ulimit -n )/" /etc/default/nginx':
+exec {'/bin/sed -i "5d" /etc/default/nginx':
+  onlyif  => 'test -e /etc/default/nginx',
   notify => Service[nginx],
 }
 
