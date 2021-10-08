@@ -12,9 +12,13 @@
 * [Author](#author)
 
 ## About
-In this project, I set up an **application server**.
+In this project, I set up an **application server** using **Gunicorn** and configured **Nginx** to serve the dynamic webpage I built in the [AirBnB clone project](https://github.com/nelsfichera/AirBnB_clone_v4).
 
 ## Files
+* `2-app_server-nginx_config`
+* `3-app_server-nginx_config`
+* `4-app_server-nginx_config`
+* `5-app_server-nginx_config`
 * `README.md`
 
 ## Author
