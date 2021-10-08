@@ -5,7 +5,7 @@ exec {'increase open file limit':
   path    => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
 }
 # Restart Nginx
-exec { 'restart nginx':
+exec { 'nginx restart':
   command => 'nginx restart',
   path    => '/etc/init.d/'
 }
