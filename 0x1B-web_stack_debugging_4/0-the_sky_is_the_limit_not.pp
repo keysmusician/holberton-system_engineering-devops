@@ -1,4 +1,4 @@
-exec {'/bin/sed "5d" /etc/default/nginx':
+exec {'/bin/sed -i "5d" /etc/default/nginx':
   notify => Service[nginx],
 }
 
