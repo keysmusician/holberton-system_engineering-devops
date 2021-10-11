@@ -47,6 +47,8 @@ These **System engineering & DevOps** projects exhibit my understanding of how t
 24. [0x17. Web stack debugging #3](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x17-web_stack_debugging_3)
 25. [0x18. Webstack monitoring](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x18-webstack_monitoring)
 26. [0x19. Postmortem](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x19-postmortem)
+27. [0x1A. Application server](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x1A-application_server)
+28. [0x1B. Web stack debugging #4](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x1B-web_stack_debugging_4)
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
