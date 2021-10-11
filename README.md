@@ -5,7 +5,7 @@
 </p>
 
 # System Engineering & DevOps
-Assignments in [Holberton School's](https://www.holbertonschool.com/) Foundations curriculum.
+DevOps projects in [Holberton School's](https://www.holbertonschool.com/) Foundations curriculum.
 
 ## Table of Contents
 * [About](#about)
