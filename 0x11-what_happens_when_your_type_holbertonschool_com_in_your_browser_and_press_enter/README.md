@@ -14,7 +14,7 @@
 ## About
 In this assignment, I was to write a blog post explaining what happens when you type https://www.holbertonschool.com in your browser and press Enter.
 
-I was required to cover:
+The post covers:
 * DNS
 * TCP/IP
 * Firewall
