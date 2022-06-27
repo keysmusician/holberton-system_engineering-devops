@@ -5,7 +5,7 @@
 </p>
 
 # System Engineering & DevOps
-Assignments in [Holberton School's](https://www.holbertonschool.com/) Foundations curriculum.
+DevOps projects in [Holberton School's](https://www.holbertonschool.com/) Foundations curriculum.
 
 ## Table of Contents
 * [About](#about)
@@ -13,7 +13,7 @@ Assignments in [Holberton School's](https://www.holbertonschool.com/) Foundation
 * [Author](#author)
 
 ## About
-These **System engineering & DevOps** projects exhibit my understanding of how to use a **Linux shell,** particularly **Bash**. Concepts include **I/O redirection,** **expansion**, **aliases,** **regular expressions,** and **bash scripting**. In trimester 2, I learned networking basics such as the **OSI model**, **DNS**, and **IP**. In the third trimester, I learned the basics of **configuration management** using **Puppet,** and how to configure a **web server** using **Nginx** and **HAProxy**.
+These **System engineering & DevOps** projects exhibit my understanding of interactions between computers and technologies. In the first trimester, I learned how to use a **Linux shell,** particularly **Bash**. Concepts included **I/O redirection,** **expansion**, **aliases,** **regular expressions,** and **bash scripting**. In trimester 2, I learned networking basics such as the **OSI model**, **DNS**, and **IP**. In the third trimester, I learned the basics of **configuration management** using **Puppet,** and how to configure a **web server** using **Nginx** and **HAProxy**, enabling **SSL/TLS**, managing a **MySQL database**, and more.
 
 ## Projects
 ### Trimester 1:
@@ -47,15 +47,18 @@ These **System engineering & DevOps** projects exhibit my understanding of how t
 24. [0x17. Web stack debugging #3](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x17-web_stack_debugging_3)
 25. [0x18. Webstack monitoring](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x18-webstack_monitoring)
 26. [0x19. Postmortem](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x19-postmortem)
+27. [0x1A. Application server](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x1A-application_server)
+28. [0x1B. Web stack debugging #4](https://github.com/keysmusician/holberton-system_engineering-devops/tree/main/0x1B-web_stack_debugging_4)
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
 <pre align="center">
-            _   _       _   _   _       _   _       _   _   _      
-     ___//|_//|_____//|_//|_//|_____//|_//|_____//|_//|_//|___
-     /  /// ///  /  /// /// ///  /  /// ///  /  /// /// ///  / |
-   /  ||/ ||/  /  ||/ ||/ ||/  /  ||/ ||/  /  ||/ ||/ ||/  / /
- /___/___/___/___/___/___/___/___/___/___/___/___/___/___/ /
-|___|___|___|___|___|___|___|___|___|___|___|___|___|___|/
+        _   _       _   _   _       _   _       _   _   _     
+    ___//|_//|_____//|_//|_//|_____//|_//|_____//|_//|_//|___ 
+   /  /// ///  /  /// /// ///  /  /// ///  /  /// /// ///  / |
+  /  ||/ ||/  /  ||/ ||/ ||/  /  ||/ ||/  /  ||/ ||/ ||/  / / 
+ /___/___/___/___/___/___/___/___/___/___/___/___/___/___/ /  
+ |___|___|___|___|___|___|___|___|___|___|___|___|___|___|/   
+ 
 </pre>
 <p><span style="font-family: 'Lucida Console'; line-height: 14px; font-size: 14px; display: inline-block;">&nbsp;</span></p>  
